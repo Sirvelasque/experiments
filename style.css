@@ -1,7 +1,5 @@
 body {
-  
   font-family: 'Roboto', sans-serif;
-  background: #191765;
 }
 .logo {
   font-size: 18px;
@@ -16,5 +14,4 @@ body {
 .nav-item{
   font-size: 15px;
   line-height: 20px;
-  
 }
