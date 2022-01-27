@@ -1,6 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
 .logo {
   font-size: 18px;
   line-height: 20px;
@@ -14,4 +15,12 @@ body {
 .nav-item{
   font-size: 15px;
   line-height: 20px;
+}
+
+.about_img{
+  width: 50px;
+}
+
+.about_li {
+margin: 0 3%;
 }

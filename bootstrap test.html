@@ -41,15 +41,83 @@
 
 
 
-<section class="about">
-  <div>
+<section class="about container overflow-hidden text-center">
+  <div class="row">
     <h2>About me</h2>
     <p> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
       don’t hestiate to contact me.</p>
     <button type="button" class="resume_button">Get My Resume</button>
   </div>
-  
+  <div class="about_me row gx-6">
+    <div class="info_container col bg-secondary">
+      <div ><img src="img/langguage.svg" alt="" class="about_img rounded-circle bg-white"></div>
+      <h3>Languages</h3>
+      <ul class="about_items list-group list-group-horizontal gx-5 ">
+        <li class="about_li list-group-item rounded-pill"><span class="badge bg-white text-success">Javascript</span></li>
+        <li class="bout_li list-group-item"><span class="badge bg-white text-success">Ruby</span></li>
+        <li class="about_li list-group-item"><span class="badge bg-white text-success">Html</span></li>
+        <li class="about_li list-group-item"><span class="badge bg-white text-success">CSS</span></li>
+      </ul>
+    </div>
+    <div class="info_container col bg-secondary">
+      <div class="about_img rounded"><img src="img/framework.svg" alt=""></div>
+      <h3>Frameworks</h3>
+      <ul class="about_items">
+        <li class="about_li">Bootstrap</li>
+        <li class="bout_li">Ruby on rails</li>
+        <li class="about_li">RSpec</li>
+        <li class="about_li">Capybara</li>
+        <li class="about_li">Selenium</li>
+      </ul>
+    </div>
+    <div class="info_container col-4">
+      <div class="about_img"><img src="img/skills.svg" alt=""></div>
+      <h3>Skills</h3>
+      <ul class="about_ul">
+        <li class="about_li">Codekit</li>
+        <li class="bout_li">Github</li>
+        <li class="about_li">Codepan</li>
+        <li class="about_li">Github</li>
+        <li class="about_li">Terminal</li>
+      </ul>
+    </div>
+  </div>
+</section> 
+
+<section class="contact">
+  <div class="form_container">
+    <div class="form_text">
+      <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
+    </div>
+    <form action="https://formspree.io/f/xqknednn" method="post">
+      <ul class="f_name">
+        <li>
+          <input aria-label="Name" type="text" id="name" name="Name" placeholder="First name" maxlength="30" required>
+        </li>
+       
+        <li>
+          <input type="text" id="last_name" name="Name" placeholder="Last name" maxlength="30" required>
+        </li>
+        <li>
+          <input type="email" id="email" name="E-mail" placeholder="Email address" required>
+        </li>
+        <li>
+          <textarea id="message" cols="40" rows="10" maxlength="500" required></textarea>
+        </li>
+        <li class="button">
+          <button type="submit" class="project_btn">Get in touch</button>
+        </li>
+      </ul>
+    </form>
+  </div>
 </section>
-    
+
+<ul class="social_media">
+  <li class="social_icon"><a href=""><img alt="My Github" src=""></a></li>
+  <li class="social_icon"><a href=""><img alt="My linkedin" src=""></a></li>
+  <li class="social_icon"><a href=""><img alt="My My angelist" src=""></a></li>
+  <li class="social_icon"><a href=""><img alt="My Twitter" src=""></a></li>
+  <li class="social_icon"><a href=""><img alt="My Medium" src=""></a></li>
+</ul>
   </body>
 </html>
