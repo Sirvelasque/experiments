@@ -21,6 +21,6 @@ body {
   width: 50px;
 }
 
-.about_li {
-margin: 0 3%;
+.info_container {
+  margin: 0 6px;
 }
